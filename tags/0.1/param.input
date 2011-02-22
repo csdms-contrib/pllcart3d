@@ -1,0 +1,68 @@
+//Nx_cell_global - No. of cells in x globally
+1000
+//Ny_cell_global - No. of cells in y globally
+100
+//Nz_cell_global - No. of cells in z globally
+3
+//Nx_ghost - No. of ghost cells in x 
+3
+//Ny__ghost - No. of ghost cells in y 
+1
+//Nz__ghost - No. of ghost cells in z
+1
+// Initial ?Start from initial cond(1) or intermediate(0)
+1
+//Ugrid? uniform grid(1) or not(0)
+1
+//Niter_print: No. of screen printing interval 
+1
+//Out_mid: time interval before storing midfield
+0.5
+//X1: left end of domain
+0.0
+//X2: right end of domain
+10.0
+//Y1:bottom end of domain
+-0.5
+//Y2:top end of domain
+0.5
+//Z1:side end of domain
+-1.5
+//Z2:side domain
+1.5
+//Timemax: Maximum simulation time
+1.0
+//Timestep: time marching step
+2e-3
+//Re: Reynolds number
+1.0
+//Pe: Peclet number
+1000.0
+//Vratio: viscosity ratio(M)-log(mu2/mu1)
+3.0
+//Fx: Density parameter in x-dir
+0.0
+//Fy: Density parameter in y-dir
+0.0
+//Inf_pos: Initial interface position
+0.5
+//Inf_thick: Initial interface thickness
+0.1
+//CFLmax: Maximum bound for CFL number 
+0.75
+//Out_inter: output time interval for writing to file for plotting
+0.1
+//Wavpert ? add wave perturbation in the spanwise direction (1) or not (0)
+0
+//Ampli: amplitude of Wavpert
+0.1
+//Lamb: wavelength of Wavpert
+3.0
+//Subharm: ? add sub-harmonic perturbation (1) or not (0) - adjust Z1 and Z2 accordingly!
+0
+//Nmvp: ? use non-monotonic viscosity profile (1) or exponential correlation (0)
+1
+//Mum: maximum viscosity of non-monotonic viscosity profile
+1.5
+//Lambda: parameter that relates end point slopes of nm viscosity profile
+0.0
